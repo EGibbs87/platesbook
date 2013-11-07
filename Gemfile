@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
-gem 'devise', '3.0.0.rc'
+gem 'devise', '~> 3.1.0.rc2'
 gem 'simple_form'
 gem "cocaine", "= 0.5.0"
 gem 'paperclip', "~> 3.5.1"

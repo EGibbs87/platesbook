@@ -24,16 +24,14 @@ $navbar-default-brand-hover-color:	red;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#616161', GradientType=0);
 	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
-.btn-sample:hover,
-.btn-sample:active,
-.btn-sample.active,
-.btn-sample.disabled,
-.btn-sample[disabled] {
-	color: #FFFFFF;
+.btn-signup:hover,
+.btn-signup:active,
+.btn-signup.active,
+.btn-signup.disabled,
+.btn-signup[disabled] {
+	color: #000000;
 	background-color: #616161;
 	*background-color: #003bb3;
-
-
 }
 
 .btn-login {
@@ -57,7 +55,7 @@ $navbar-default-brand-hover-color:	red;
 .btn-login.active,
 .btn-login.disabled,
 .btn-login[disabled] {
-	color: #FFFFFF;
+	color: #000000;
 	background-color: #54C0FF;
 	*background-color: #003bb3;
 }
