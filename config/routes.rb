@@ -1,5 +1,7 @@
 Platesbook::Application.routes.draw do
 
+  resources :posts
+
   devise_for :users, controllers: {registrations: "users/registrations"}
   root "pages#home"
 
