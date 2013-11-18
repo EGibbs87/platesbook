@@ -1,8 +1,8 @@
-<div class="panel panel-primary">
+<div class="panel panel-primary width">
   <div class="panel-heading">
     <h2>Edit <%= resource_name.to_s.humanize %></h2>
   </div>
-    <div class="panel-body">
+    <div class="panel-body width">
       <%= simple_form_for(resource, :as => resource_name, :url => registration_path(resource_name), :html => { :method => :put }) do |f| %>
       <%= f.error_notification %>
         <div class="form-group">
@@ -39,7 +39,7 @@
     <%= render "devise/shared/links" %>
   </div>
 </div>
-  <div class="panel panel-primary">
+  <div class="panel panel-primary width">
     <div class="panel-body">
     <p>Unhappy? <%= link_to "Cancel my account", registration_path(resource_name), :data => { :confirm => "Are you sure?" }, :method => :delete %></p>
   </div>
