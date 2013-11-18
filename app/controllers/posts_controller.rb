@@ -20,7 +20,7 @@ class PostsController < ApplicationController
 
    
     if @post.save
-      edirect_to @post, notice: 'Post was successfully created.'
+      redirect_to @post, notice: 'Post was successfully created.'
     else
       render action: 'new'
     end
