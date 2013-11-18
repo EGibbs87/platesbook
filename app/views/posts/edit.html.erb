@@ -1,6 +1,11 @@
-<h1>Editing post</h1>
+<div class="panel panel-primary">
+	<div class="panel panel-heading">
+		<h1>Editing post</h1>
+	</div>
+	<%= render 'form' %>
 
-<%= render 'form' %>
-
-<%= link_to 'Show', @post %> |
-<%= link_to 'Back', posts_path %>
+	<div class="panel panel-footer comment">
+		<%= link_to 'Show', @post %> |
+		<%= link_to 'Back', posts_path %>
+	</div>
+</div>

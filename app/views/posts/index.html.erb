@@ -1,6 +1,9 @@
-<h1>Listing posts</h1>
+<div class="panel panel-primary">
+  <div class="panel panel-heading">
+    <h1>Listing posts</h1>
+  </div>
 
-<table>
+<table class="comment">
   <thead>
     <tr>
       <th>Comment</th>
@@ -15,7 +18,9 @@
       <tr>
         <td><%= post.comment %></td>
         <td><%= link_to 'Show', post %></td>
+        <td> | </td>
         <td><%= link_to 'Edit', edit_post_path(post) %></td>
+        <td> | </td>
         <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
@@ -24,4 +29,7 @@
 
 <br>
 
-<%= link_to 'New Post', new_post_path %>
+  <div class="panel panel-footer comment">
+    <%= link_to 'New Post', new_post_path %>
+  </div>
+</div>
