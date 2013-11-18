@@ -1,9 +1,15 @@
 <div class="jumbotron center">
 	<h1>PlatesBook</h1>
 	<% if user_signed_in? %>
-		Andrew Ruxer is stupid.
+		Andrew Ruxer is extremely stupid.
 
 	<% else %>
+		<h1>
+			Please log in to find out how stupid Andrew Ruxer is.
+		</h1>
+		<h1>
+			Also, pics or it didn't happen.
+		</h1>
 		<p>
 			<%= link_to "Log In", new_user_session_path, class: "btn btn-login" %>
 			<%= link_to "Sign Up", new_user_registration_path, class: "btn btn-signup" %>
